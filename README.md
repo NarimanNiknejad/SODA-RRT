@@ -72,18 +72,13 @@ This project is licensed under the [MIT License] - see the [LICENSE.md](LICENSE.
 
 ## Results
 
-<div style="text-align:center">
-  <img src="SODA-RRT.png" alt="SODA-RRT Algorithm; ellipsoidal sets and trajectories" style="width: 300px;">
-  <img src="LQR_RRT_LQR.png" alt="LQR with RRT waypoints and LQR Algorithm trajectories" style="width: 300px;">
-</div>
-
 <center>
-<table>
-  <tr>
-    <td><img src="SODA-RRT.png" alt="SODA-RRT Algorithm; ellipsoidal sets and trajectories." style="width: 300px;"></td>
-    <td><img src="LQR_RRT_LQR.png" alt="LQR with RRT waypoints and LQR Algorithm trajectories." style="width: 300px;"></td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td><img src="SODA-RRT.png" alt="SODA-RRT Algorithm; ellipsoidal sets and trajectories." style="width: 300px;"></td>
+      <td><img src="LQR_RRT_LQR.png" alt="LQR with RRT waypoints and LQR Algorithm trajectories." style="width: 300px;"></td>
+    </tr>
+  </table>
 </center>
 
 
