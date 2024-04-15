@@ -38,4 +38,3 @@ dependencies:
     - scs==3.2.3
     - seaborn==0.11.2
     - six==1.16.0
-prefix: /Users/nariman/opt/anaconda3/envs/snakes
