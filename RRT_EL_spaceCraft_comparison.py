@@ -82,11 +82,11 @@ def draw_axes(screen,HEIGHT=Maph,WIDTH=Mapw):
 
     # Add x and y axis labels at the centers
     font = pygame.font.Font(None, 40)
-    x_label = font.render("x (m)", True, BLACK)
+    x_label = font.render("z1 (m)", True, BLACK)
     x_label_rect = x_label.get_rect(center=(WIDTH // 2, HEIGHT - 30))
     screen.blit(x_label, x_label_rect)
     
-    y_label = font.render("y (m)", True, BLACK)
+    y_label = font.render("z2 (m)", True, BLACK)
     y_label_rect = y_label.get_rect(center=(90, HEIGHT // 2))
     screen.blit(y_label, y_label_rect)
 
