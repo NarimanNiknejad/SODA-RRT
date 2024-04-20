@@ -2,9 +2,7 @@
 
 This paper presents a performance-aware motion planning approach that generates collision-free paths with guaranteed performance using invariant sets. Specifically, the presented planner connected conflict-free invariant sets inside which closed-loop trajectories respect safety and optimality. Waypoints are randomly generated and invariant sets are formed for them and are connected to create a sequence of invariant sets from the initial to the target point. For each waypoint, an optimization problem finds the largest conflict-free zone and a safe-optimal controller. The presented algorithm, called safe optimal dynamics-aware motion planning \texttt{SODA-RRT}, accounts for the performance-reachability of connected waypoints, removing the need for frequent re-planning. Its effectiveness is demonstrated through spacecraft motion planning to avoid debris.
 
-[Graph Rule](GraphRule.png)
-
-
+<img src="GraphRule.png" alt=Graph Rule">
 
 ## Installation
 
