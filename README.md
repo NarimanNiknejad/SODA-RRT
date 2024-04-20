@@ -13,7 +13,7 @@ This project presents a performance-aware motion planning approach that generate
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/NarimanNiknejad/SODA-RRT.git
 cd SODA-RRT
 ```
 
