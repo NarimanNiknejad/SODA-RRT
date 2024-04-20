@@ -1,6 +1,9 @@
 # SODA-RRT: Safe Optimal Dynamics-Aware Motion Planning
 
-This project introduces a novel motion planning approach that generates collision-free paths using invariant sets. It extends previous works by creating the largest safe-optimal interconnected invariant sets satisfying local optimality. This is achieved by randomly generating waypoints and solving LMIs to identify the largest invariant ellipsoid and its associated control gain, ensuring safety and optimality. The dynamics-based formulation of the planning algorithm enhances conventional RRT path planning. Using the largest invariant sets reduces the iterations needed for path determination. The project also introduces a gain-switching algorithm guaranteeing safety and seamless operation. This code generates a safe optimal path for collision-free spacecraft planning to avoid debris while maneuvering in space. 
+This paper presents a performance-aware motion planning approach that generates collision-free paths with guaranteed performance using invariant sets. Specifically, the presented planner connected conflict-free invariant sets inside which closed-loop trajectories respect safety and optimality. Waypoints are randomly generated and invariant sets are formed for them and are connected to create a sequence of invariant sets from the initial to the target point. For each waypoint, an optimization problem finds the largest conflict-free zone and a safe-optimal controller. The presented algorithm, called safe optimal dynamics-aware motion planning \texttt{SODA-RRT}, accounts for the performance-reachability of connected waypoints, removing the need for frequent re-planning. Its effectiveness is demonstrated through spacecraft motion planning to avoid debris.
+
+[Graph Rule](GraphRule.png)
+
 
 
 ## Installation
