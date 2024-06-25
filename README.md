@@ -31,7 +31,7 @@ conda activate SODA
 
 ## Obtaining and Licensing MOSEK 
 
-MOSEK is a powerful optimization solver that can be used with MATLAB to solve various mathematical optimization problems. To get started with MOSEK for MATLAB, follow these steps:
+MOSEK is a powerful optimization solver that can be used with Python to solve various mathematical optimization problems. To get started with MOSEK for Python, follow these steps:
 
 ### 1. Download MOSEK
 
