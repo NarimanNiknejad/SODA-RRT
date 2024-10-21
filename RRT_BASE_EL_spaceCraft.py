@@ -219,8 +219,7 @@ class RRTGraph:
         eps = cp.Variable((1, 1))
         gamma = cp.Variable((1, 1))
 
-        obj = psi + eps + gamma - cp.log_det(Ps)
-        # obj = - cp.log_det(Ps) - cp.log_det(H) + gamma
+        obj = 0.0001*cp.log_det(H) + gamma - cp.log_det(Ps)
         
         # cons = [Ps - Psafe >> 0]
         
