@@ -67,7 +67,16 @@ python RRT_EL_spaceCraft_comparison.py
 ## Citation
 If you found this page useful for your research, please cite it as:
 
-(submitted and waiting for the citation information)
+@article{niknejad2024soda,
+  title={SODA-RRT: Safe Optimal Dynamics-Aware Motion Planning},
+  author={Niknejad, Nariman and Esmzad, Ramin and Modares, Hamidreza},
+  journal={IFAC-PapersOnLine},
+  volume={58},
+  number={28},
+  pages={863--868},
+  year={2024},
+  publisher={Elsevier}
+}
 
 ## License
 
